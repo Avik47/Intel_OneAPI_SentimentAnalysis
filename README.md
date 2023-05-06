@@ -13,18 +13,18 @@ After experimenting with several optimizers for our model, we have determined th
 ## Role of Intel OneAPI toolkits
 By utilizing Intel's OneDNN and OneMKL, we developed an application that utilizes the background operation optimization of OneDNN by fusing and reordering operations and reducing memory usage. 
 We employed the Intel extension for PyTorch, which provided several benefits, like
-increased performance, 
-improved efficiency, 
-access to Intel-specific features, 
-seamless integration,
-flexibility.
+1. Increased performance, 
+2. Improved efficiency, 
+3. Access to Intel-specific features, 
+4. Seamless integration, and
+5. Flexibility.
 We observed a significant improvement in runtime and overall speed when using IPEX, as compared to the performance without using IPEX.
 
 We also used Intel Extesion for Scikit Learn and Modin: The drop-in replacement for Pandas which provided several benefits, like
-Reduced Memory Usage
-Improved Performance 
-Scalability
-Access to Intel®-specific features like Math Kernel Library
+1. Reduced Memory Usage
+2. Improved Performance 
+3. Scalability
+4. Access to Intel®-specific features like Math Kernel Library
 
 Overall, the library optimizes data ingestion along with algorithmic computation to increase throughput and scalability
 
