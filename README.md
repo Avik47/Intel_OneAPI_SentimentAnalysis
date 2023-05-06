@@ -8,7 +8,7 @@ This repository is about the sentiment analysis problem using SVM based ANN and 
 After experimenting with several optimizers for our model, we have determined that the SGD optimizer is the most suitable. This is due to its ability to converge to the minimum of the cost function, introduce random noise for regularization, and handle large datasets with efficiency. The results demonstrate that our model achieves the best performance when using the SGD optimizer, as illustrated in the figure.
 
 <br/><br/>
-
+<img src="/Optim-Sel.jpeg" style="margin: 15px;">
 
 
 ## Role of Intel OneAPI toolkits
@@ -28,10 +28,6 @@ Scalability
 Access to Intel®-specific features like Math Kernel Library
 
 Overall, the library optimizes data ingestion along with algorithmic computation to increase throughput and scalability
-<br/><br/>
-<img src="/Final_Flow.jpeg" style="margin: 15px;">
-
-<img src="/Optim-Sel.jpeg" style="margin: 15px;">
 
 <br/><br/>
 
@@ -41,3 +37,5 @@ Firstly, Feature extraction is done using Word2Vec.
 We get a final clean dataset that contains its sentiment score and the corresponding feature vector.
 After that, we train 2 artificial neural networks(ANN) using the feature vectors of the words extracted with OneDNN being used in the background.
 Then, we perform a linear Regression Ensemble of Trained Artificial Neural Networks using Support Vector Machine (SVM).
+<br/><br/>
+<img src="/Final_Flow.jpeg" style="margin: 15px;">
