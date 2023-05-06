@@ -32,6 +32,7 @@ Overall, the library optimizes data ingestion along with algorithmic computation
 
 <img src="/Final_Flow.jpeg" style="margin: 10px;">
 
+<img src="/Optim-Sel.jpeg" style="margin: 10px;">
 
 
 
