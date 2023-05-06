@@ -8,7 +8,7 @@ This repository is about the sentiment analysis problem using SVM based ANN and 
 After experimenting with several optimizers for our model, we have determined that the SGD optimizer is the most suitable. This is due to its ability to converge to the minimum of the cost function, introduce random noise for regularization, and handle large datasets with efficiency. The results demonstrate that our model achieves the best performance when using the SGD optimizer, as illustrated in the figure.
 
 <br/><br/>
-![Flowchart](https://user-images.githubusercontent.com/75220234/236588785-8d2b840f-8748-4478-a9a4-11a7c419f8e6.jpeg)
+
 
 
 ## Role of Intel OneAPI toolkits
@@ -29,12 +29,9 @@ Access to Intel®-specific features like Math Kernel Library
 
 Overall, the library optimizes data ingestion along with algorithmic computation to increase throughput and scalability
 <br/><br/>
+<img src="/Final_Flow.jpeg" style="margin: 15px;">
 
-<img src="/Final_Flow.jpeg" style="margin: 10px;">
-
-<img src="/Optim-Sel.jpeg" style="margin: 10px;">
-
-
+<img src="/Optim-Sel.jpeg" style="margin: 15px;">
 
 <br/><br/>
 
